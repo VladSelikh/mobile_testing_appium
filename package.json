@@ -4,7 +4,8 @@
   "description": "A repository to demonstrate how mobile test automation works",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "lint": "eslint",
+    "lint-fix": "eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "appium": "^3.2.2",
     "eslint": "^9.39.4",
     "globals": "^17.4.0",
+    "jiti": "^2.6.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.57.0"
