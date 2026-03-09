@@ -1,0 +1,24 @@
+{
+  "name": "mobile_testing_appium",
+  "version": "1.0.0",
+  "description": "A repository to demonstrate how mobile test automation works",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladSelikh/mobile_testing_appium.git"
+  },
+  "keywords": [
+    "appium",
+    "mobile",
+    "js"
+  ],
+  "author": "VladSelikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladSelikh/mobile_testing_appium/issues"
+  },
+  "homepage": "https://github.com/VladSelikh/mobile_testing_appium#readme"
+}
