@@ -61,6 +61,8 @@ class LoginScreen(AppScreen):
         )
 
     def submit_login_form(self, username: str, password: str):
+        self.email.clear()
+        self.password.clear()
         self.email.send_keys(username)
         self.password.send_keys(password)
 

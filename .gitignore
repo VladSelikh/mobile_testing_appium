@@ -1,8 +1,9 @@
+.DS_Store
 apps
 .env
 logs
 __pycache__/
+.pytest_cache/
 *.pyc
 *.pyo
 *.pyd
-.pytest_cache/
