@@ -28,6 +28,7 @@
     "appium": "^3.2.2",
     "appium-doctor": "^1.16.2",
     "appium-uiautomator2-driver": "^7.0.0",
+    "appium-xcuitest-driver": "^10.26.0",
     "eslint": "^9.39.4",
     "globals": "^17.4.0",
     "jiti": "^2.6.1",
