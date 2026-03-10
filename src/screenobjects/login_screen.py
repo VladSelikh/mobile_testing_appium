@@ -5,7 +5,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from src.helpers.utils import hide_keyboard
 from src.screenobjects.app_screen import AppScreen
 
-
 class LoginScreen(AppScreen):
     SCREEN = (AppiumBy.ACCESSIBILITY_ID, "Login-screen")
 
