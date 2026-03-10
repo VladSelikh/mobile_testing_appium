@@ -7,7 +7,7 @@ export const config: WebdriverIO.Config = {
   baseUrl: '',
   waitforTimeout: 45000,
   connectionRetryTimeout: 120000,
-  connectionRetryCount: 3,
+  connectionRetryCount: 6,
   services: [],
   framework: 'mocha',
   reporters: ['spec'],

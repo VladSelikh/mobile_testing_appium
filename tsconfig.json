@@ -8,6 +8,7 @@
     "noImplicitAny": true,
     "strictPropertyInitialization": true,
     "strictNullChecks": true,
+    "esModuleInterop": true,
     "types": [
       "node",
       "webdriverio/async",
