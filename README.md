@@ -17,10 +17,10 @@
 
 This project demonstrates how **mobile automation testing** works using **Appium**, **Python**, and **Pytest**.
 
-The purpose of this repository is to shows how to structure a simple mobile automation framework and how simple user scenarios in a mobile application can be automated utilizing:
+The purpose of this repository is to show how to structure a simple mobile automation framework and how simple user scenarios in a mobile application can be automated utilizing:
 
 - **Appium** + **Pytest**
-- Usage of the **Page Object Model (POM)** pattern
+- **Page Object Model (POM)** pattern
 
 ## 2. Prerequisites
 
