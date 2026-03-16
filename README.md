@@ -145,7 +145,8 @@ To change the simulator go to `File → Open Simulator` and choose the desired c
 ## 7. Project preparation
 
 1. Open the code in any IDE and open the Terminal there.
-2. Create `.env` file in the project root and define the following variables:
+2. Make sure you have a folder in the root named `apps` with the corresponding installation files for the application. The latest releases for Android and iOS can be found [on this page](https://github.com/webdriverio/native-demo-app/releases)
+3. Create `.env` file in the project root and define the following variables:
 
 ```bash
 TEST_USERNAME="your_username"
@@ -153,7 +154,7 @@ TEST_PASSWORD="your_password"
 ```
 
 Those could be any string in email format for `TEST_USERNAME` and any string of at least 8 characters for `TEST_PASSWORD`.
-3. Open file `config/android_capabilities.py` and set the values according to the running Android device:
+4. Open file `config/android_capabilities.py` and set the values according to the running Android device:
 
 ```python
 "appium:deviceName"
@@ -167,7 +168,7 @@ These values can be found here:
 Open file `config/ios_capabilities.py` and do the same for running iOS device (if any). These values can be found here:
 
 ![iOS](./img/iOSCaps.png)
-4. Install Python dependencies:
+5. Install Python dependencies:
 
 ```bash
 python3 -m pip install -r requirements.txt
